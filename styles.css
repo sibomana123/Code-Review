@@ -5,12 +5,6 @@
     box-sizing: border-box;
   }
 
-  section {
-    border: 1px solid gray;
-    height: 100vh;
-  }
-  
-
   .text-logo {
     width: auto;
     height: 30px;
@@ -31,8 +25,6 @@
     justify-content: space-between;
     align-items: center;
   }
-  .nav-ul {
-  }
   
   li a {
     text-decoration: none;
@@ -41,8 +33,7 @@
   li a:hover {
     text-shadow: 1px 4px 8px black;
   }
-  /*  */
-  /*  */
+
   header {
     background-color: beige;
     height: 40px;
@@ -54,6 +45,8 @@
   section {
     position: relative;
     top: 40px;
+    border: 1px solid gray;
+    height: 100vh;
   }
   
   .container-post {
